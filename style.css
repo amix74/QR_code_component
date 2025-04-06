@@ -22,13 +22,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin:0 auto;
 }
 
 #qr-code-card {
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
-  width: 320px;
-  height: 499px;
+  max-width: 320px;
+  max-height: 499px;
+  min-width: 278px;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
   background: var(--color-white);
 }
@@ -75,6 +77,9 @@ p {
 
 @media screen and (min-width: 768px) {
   #qr-code-card {
+
+    max-width: unset;
+    max-height: unset;
     width: 480px;
     height: 748px;
 
