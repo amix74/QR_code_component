@@ -72,31 +72,3 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-@media screen and (min-width: 768px) {
-  #qr-code-card {
-    width: 480px;
-    height: 748px;
-
-    border-radius: 30px;
-    padding: 24px 24px 60px 24px;
-
-    box-shadow: 0 37px 37px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  h1 {
-    font-size: 33px;
-    margin-top: 36px;
-    margin-bottom: 24px;
-  }
-
-  p {
-    font-size: 22px;
-    letter-spacing: 0.015em;
-  }
-
-  .attribution {
-    font-size: 16px;
-    margin: 22px 0;
-  }
-}
