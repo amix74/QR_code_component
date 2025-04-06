@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,7 +30,6 @@ body {
   padding: 16px 16px 40px 16px;
   width: 320px;
   height: 499px;
-  max-width: 80vw;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
   background: var(--color-white);
 }
@@ -37,10 +37,6 @@ body {
 #image-qr-code {
   width: 100%;
   border-radius: 10px;
-}
-
-#text-description {
-  padding: 0 16px;
 }
 
 h1 {
