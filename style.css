@@ -61,14 +61,9 @@ p {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-width: 300px;
-  text-align: center;
   font-size: 11px;
+  text-align: center;
   margin: 15px 0;
-  z-index: -1;
 }
 
 .attribution a {
