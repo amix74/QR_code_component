@@ -14,13 +14,11 @@
 
 body {
   background: var(--color-slate-300);
-  height: 100vh;
-  min-width: 300px;
 }
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,10 +61,6 @@ p {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-width: 300px;
   font-size: 11px;
   text-align: center;
   margin: 15px 0;
