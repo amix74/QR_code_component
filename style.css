@@ -25,7 +25,7 @@ body {
   justify-content: center;
 }
 
-#qr-code-card {
+.qr-code-card {
   border-radius: 20px;
   padding: 16px 16px 40px 16px;
   width: 320px;
@@ -34,7 +34,7 @@ body {
   background: var(--color-white);
 }
 
-#image-qr-code {
+.image-qr-code {
   width: 100%;
   border-radius: 10px;
 }
@@ -61,6 +61,9 @@ p {
 }
 
 .attribution {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
   font-size: 11px;
   text-align: center;
   margin: 15px 0;
