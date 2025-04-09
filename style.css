@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root {
   --color-slate-900: #1f314f;
   --color-slate-500: #68778d;
@@ -32,22 +34,39 @@ body {
   height: 499px;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
   background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .image-qr-code {
-  width: 100%;
-  border-radius: 10px;
+
 }
 
-h1 {
+.image-qr-code img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+h2 {
   font-family: var(--font-family), sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   text-align: center;
   color: var(--color-slate-900);
-  margin-top: 24px;
-  margin-bottom: 16px;
+
 }
 
 p {
@@ -63,12 +82,13 @@ p {
 .attribution {
   position: absolute;
   bottom: 0;
-  z-index: -1;
-  font-size: 11px;
+  width: 100%;
+  min-width: 300px;
   text-align: center;
+  font-size: 11px;
   margin: 15px 0;
+  z-index: -1;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
