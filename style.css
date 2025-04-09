@@ -42,12 +42,10 @@ body {
 }
 
 .image-qr-code {
-
-}
-
-.image-qr-code img {
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
   border-radius: 10px;
-  width: 100%;
 }
 
 .description {
