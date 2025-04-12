@@ -15,17 +15,28 @@
 }
 
 body {
-  background: var(--color-slate-300);
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-slate-300);
+  z-index: -1;
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
+  flex-grow: 1;
+ }
 
 .qr-code-card {
   border-radius: 20px;
@@ -37,8 +48,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   gap: 24px;
+  margin: auto;
 }
 
 .image-qr-code {
@@ -78,14 +90,11 @@ p {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   min-width: 300px;
   text-align: center;
   font-size: 11px;
-  margin: 15px 0;
-  z-index: -1;
+  margin: 15px auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
